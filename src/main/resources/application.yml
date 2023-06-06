@@ -1,0 +1,22 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: module-user
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/brownie
+    username: root
+    password: abc123456
+aliyun:
+  oss:
+    file:
+      endPoint: oss-cn-shenzhen.aliyuncs.com
+      keyId: 填你自己的 AccessKey
+      keySecret: 填你自己的
+      bucketName: brow填你自己的
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
